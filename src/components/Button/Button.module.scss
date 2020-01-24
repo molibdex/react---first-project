@@ -1,0 +1,25 @@
+.button {
+  display: block;
+  max-width: 150px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 7px 12px;
+  font-weight: 500;
+  background: #000000;
+  border: 2px solid #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.secondary {
+  @extend .button;
+
+  width: 120px;
+  background-color: #000000;
+  color: white;
+
+  font-weight: 700;
+  font-size: .8em;
+  box-shadow: 0 5px 20px -5px rgba(#818181, .9);
+}
