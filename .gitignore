@@ -64,3 +64,6 @@ typings/
 *.json
 
 yarn.lock
+
+# Local Netlify folder
+.netlify
